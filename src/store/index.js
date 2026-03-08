@@ -48,9 +48,9 @@ export default createStore({
     async fetchTodoList({ commit, dispatch }) {
       const data = await api.get('/todoList')
       if (data.length === 0) {
-        for (const item of sampleData) {
+        for (const item of sampleData.slice().reverse()) {
           await dispatch('addTodoListItem', item)
-          await new Promise((resolve) => setTimeout(resolve, 100)) // 100ms delay for sorting purposes demo
+          await new Promise((resolve) => setTimeout(resolve, 100))
         }
         return
       }
