@@ -1,0 +1,36 @@
+{
+  "todoList": [
+    {
+      "title": "Task Title 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": "/src/320x200.svg"
+    },
+    {
+      "title": "Task Title 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": "/src/320x200.svg"
+    },
+    {
+      "title": "Task Title 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": null
+    },
+    {
+      "title": "Task Title 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": "/src/320x200.svg",
+      "taskStatus": 1
+    },
+    {
+      "title": "Task Title 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": "/src/320x200.svg",
+      "taskStatus": 2
+    },
+    {
+      "title": "Task Title 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ipsum autem sint quae facilis optio saepe nisi dolor maxime nostrum illo culpa deserunt consequuntur sapiente provident obcaecati reiciendis.",
+      "image": "/src/320x200.svg"
+    }
+  ]
+}

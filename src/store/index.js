@@ -1,5 +1,4 @@
 import { createStore } from 'vuex'
-import { sampleData } from './sampleData'
 
 const api = {
   get: (path) => fetch(`http://localhost:3001${path}`).then((r) => r.json()),
@@ -48,7 +47,9 @@ export default createStore({
     async fetchTodoList({ commit, dispatch }) {
       const data = await api.get('/todoList')
       if (data.length === 0) {
-        for (const item of sampleData.slice().reverse()) {
+        const response = await fetch('/sampleData.json')
+        const sample = (await response.json()).todoList
+        for (const item of sample.slice().reverse()) {
           await dispatch('addTodoListItem', item)
           await new Promise((resolve) => setTimeout(resolve, 100))
         }
